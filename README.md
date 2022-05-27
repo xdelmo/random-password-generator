@@ -92,7 +92,7 @@ I'd like to:
 - [Fontawesome](https://fontawesome.com/v4/)&[W3Schools](https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-flash) - How to implement nice icons to the project
 - [How to change <hr>'s thickness](https://stackoverflow.com/questions/4151743/how-can-i-change-the-thickness-of-my-hr-tag) - This helped me to understand how hr tag works
 - [Stackoverflow](https://stackoverflow.com/questions/44573859/a-loop-to-create-the-alphabet-using-javascrip) - Good question to convert numbers to aplhabet's letters
-- [How to change <hr>'s thickness](https://stackoverflow.com/questions/4151743/how-can-i-change-the-thickness-of-my-hr-tag) - This helped me to understand how hr tag works
+- [How to change hr's thickness](https://stackoverflow.com/questions/4151743/how-can-i-change-the-thickness-of-my-hr-tag) - This helped me to understand how hr tag works
 - [CSS Grid generator](https://cssgrid-generator.netlify.app/) - Wonderful tool to create simple grid in 4 clicks
 - [Codecademy](https://discuss.codecademy.com/t/changing-background-color-with-class/385183) - - How to store elements with same CSS class in a variable and how to change their CSS styles via Javascript
 
