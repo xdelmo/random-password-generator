@@ -93,7 +93,7 @@ I'd like to:
 - [How to change hr's thickness](https://stackoverflow.com/questions/4151743/how-can-i-change-the-thickness-of-my-hr-tag) - This helped me to understand how hr tag works
 - [Stackoverflow](https://stackoverflow.com/questions/44573859/a-loop-to-create-the-alphabet-using-javascrip) - Good question to convert numbers to aplhabet's letters
 - [CSS Grid generator](https://cssgrid-generator.netlify.app/) - Wonderful tool to create simple grid in 4 clicks
-- [Codecademy](https://discuss.codecademy.com/t/changing-background-color-with-class/385183) - - How to store elements with same CSS class in a variable and how to change their CSS styles via Javascript
+- [Codecademy](https://discuss.codecademy.com/t/changing-background-color-with-class/385183) - How to store elements with same CSS class in a variable and how to change their CSS styles via Javascript
 
 ## Author
 
