@@ -1,0 +1,187 @@
+/* ---------------------- */
+/* Fonts                  */
+/* ---------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap");
+
+/* ---------------------- */
+/* Custom properties      */
+/* ---------------------- */
+
+:root {
+  --clr-bright-green: #55f991;
+  --clr-dark-green: #10b981;
+
+  --clr-very-dark-blue: #1f2937;
+  --clr-dark-blue: #273549;
+  --clr-medium-grey: #d5d4d8;
+
+  --ff-main: "Karla", sans-serif;
+  --ff-serif: "Inter", sans-serif;
+}
+
+/* ---------------------- */
+/* Reset                  */
+/* ---------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* ---------------------- */
+/* Typography             */
+/* ---------------------- */
+
+body {
+  font-family: var(--ff-serif);
+  color: #fff;
+  background-color: #1c1c1c;
+}
+
+h1 {
+  font-family: var(--ff-main);
+  font-weight: 800;
+  margin: 0.25em 0;
+}
+
+h2 {
+  color: var(--clr-medium-grey);
+  font-size: 1.1em;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+hr {
+  background-color: var(--clr-dark-blue);
+  color: var(--clr-dark-blue);
+  height: 2px;
+}
+
+footer {
+  padding: 2em;
+}
+
+/* ---------------------- */
+/* Buttons                */
+/* ---------------------- */
+
+.btn {
+  font-size: 0.95em;
+  font-weight: 500;
+  font-family: var(--ff-serif);
+  background-color: var(--clr-dark-green);
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  margin: 2em 0;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  transition: all 250ms;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #fff;
+  color: var(--clr-dark-green);
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09), 0 4px 2px rgba(0, 0, 0, 0.09),
+    0 8px 4px rgba(0, 0, 0, 0.09), 0 16px 8px rgba(0, 0, 0, 0.09),
+    0 32px 16px rgba(0, 0, 0, 0.09);
+}
+
+/* ---------------------- */
+/* Utility classes        */
+/* ---------------------- */
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------------------- */
+/* Components             */
+/* ---------------------- */
+
+main {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: min(90%, 33rem);
+  padding: 4em;
+  background-color: var(--clr-very-dark-blue);
+  border-radius: 0.25em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+.title-green {
+  color: var(--clr-bright-green);
+}
+
+.fa-flash {
+  margin-right: 0.75em;
+}
+#letter-main {
+  text-transform: uppercase;
+}
+
+.downSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.generatedPassword {
+  background-color: var(--clr-dark-blue);
+  text-align: center;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+}
+
+.fa-ellipsis-h {
+  color: var(--clr-very-dark-blue);
+}
+
+/* footer */
+
+.attribution {
+  font-family: var(--ff-serif);
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
+
+/* ---------------------- */
+/* Media queries          */
+/* ---------------------- */
+
+@media (max-width: 520px) {
+  .container {
+    padding: 2em;
+  }
+
+  .downSection {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
