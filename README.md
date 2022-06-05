@@ -95,6 +95,7 @@ I'd like to:
 - [Stackoverflow](https://stackoverflow.com/questions/44573859/a-loop-to-create-the-alphabet-using-javascrip) - Good question to convert numbers to aplhabet's letters
 - [CSS Grid generator](https://cssgrid-generator.netlify.app/) - Wonderful tool to create simple grid in 4 clicks
 - [Codecademy](https://discuss.codecademy.com/t/changing-background-color-with-class/385183) - How to store elements with same CSS class in a variable and how to change their CSS styles via Javascript
+- [StackAbuse](https://stackabuse.com/how-to-copy-to-clipboard-in-javascript-with-the-clipboard-api/) - How to copy to clipboard in Javascript
 
 ## Author
 
