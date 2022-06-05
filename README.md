@@ -22,7 +22,11 @@ This is a solution to the [Random password generator project on Scrimba](https:/
 
 Users should be able to:
 
-- Generate 4 passwords by 12 characters clicking on the button
+- Generate 4 passwords by 8-12 characters clicking on the button
+- Set the password length by slider
+- See passwords' length in real time
+- Copy passwords to the clipboard clicking on the them
+- See hover states for interactive elements
 
 ### Screenshot
 
@@ -53,15 +57,15 @@ With this project I improved my CSS and JS skills. The newest things I learnt ar
 ```css
 .downSection {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
   gap: 1em;
 }
 
 @media (max-width: 520px) {
   .downSection {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
 }
 ```
@@ -69,11 +73,8 @@ With this project I improved my CSS and JS skills. The newest things I learnt ar
 - How to store all elements with same class in a variable and how to change their CSS styles via Javascript
 
 ```js
-// Creates a function changeColorPasswords() that changes color to passwords
 function changeColorPasswords() {
-  // Gets and stores all elements with generatedPassword class in allPassword variable
   let allPasswords = document.getElementsByClassName("generatedPassword");
-  // Changes color to var(--clr-bright-green) for every passwords in allPasswords
   for (let i = 0; i < allPasswords.length; i++) {
     allPasswords[i].style.color = "var(--clr-bright-green)";
   }
@@ -84,8 +85,8 @@ function changeColorPasswords() {
 
 I'd like to:
 
-- Implement the ability to set the password length
-- Add 1-click copy password to the clipboard
+- ~~Implement the ability to set the password length~~
+- ~~Add 1-click copy password to the clipboard~~
 
 ### Useful resources
 

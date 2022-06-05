@@ -18,9 +18,15 @@
             <div class="upperSection">
                 <h1 class="title">Generate a<br><span class="title-green">random password</span></h1>
                 <h2 class="supportingTitle">Never use an insecure password again.</h2>
+                <span id="password-slider-text">Length: <label for="slider" id="sliderNumber">8</label></span>
+
+                <input type="range" min="8" max="12" value="8" class="slider" id="slider" name="slider"></input>
+
                 <button class="btn" onclick="getGeneratePasswords()"><i class="fa fa-flash"></i>Generate
                     passwords</button>
+
             </div>
+
             <hr>
             <div class="downSection">
                 <div class="generatedPassword" id="password1-el"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
