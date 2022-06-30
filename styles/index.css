@@ -183,6 +183,10 @@ input {
   max-width: 15ch;
 }
 
+input[type="text"] {
+  cursor: pointer;
+}
+
 .fa-ellipsis-h {
   color: var(--clr-very-dark-blue);
 }
